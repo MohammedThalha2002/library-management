@@ -83,7 +83,7 @@ authSubmit.addEventListener("click", async (e) => {
         // ...
       })
       .then(() => {
-        window.location = "/LmsBasicFrontend-master/html/librarian/editbookCopies.html";
+        window.location = "/html/librarian/editbookCopies.html";
       })
       .catch((error) => {
         const errorCode = error.code;

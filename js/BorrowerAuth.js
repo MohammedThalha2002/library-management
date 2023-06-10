@@ -24,13 +24,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAa4ET3h3kbI4qX13imDt2KFvMIXqYCsd8",
-    authDomain: "devrev-fb8a6.firebaseapp.com",
-    projectId: "devrev-fb8a6",
-    storageBucket: "devrev-fb8a6.appspot.com",
-    messagingSenderId: "1044113886893",
-    appId: "1:1044113886893:web:1cd3031b68318cd9e44024"
-  };
+  apiKey: "AIzaSyAa4ET3h3kbI4qX13imDt2KFvMIXqYCsd8",
+  authDomain: "devrev-fb8a6.firebaseapp.com",
+  projectId: "devrev-fb8a6",
+  storageBucket: "devrev-fb8a6.appspot.com",
+  messagingSenderId: "1044113886893",
+  appId: "1:1044113886893:web:1cd3031b68318cd9e44024",
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -62,7 +62,8 @@ authSubmit.addEventListener("click", async (e) => {
         // ...
       })
       .then(() => {
-        window.location = "/LmsBasicFrontend-master/html/borrower/borrowerOptions.html";
+        window.location =
+          "/LmsBasicFrontend-master/html/borrower/borrowerOptions.html";
       })
       .catch((error) => {
         const errorMessage = error.message;
@@ -83,7 +84,7 @@ authSubmit.addEventListener("click", async (e) => {
         // ...
       })
       .then(() => {
-        window.location = "/LmsBasicFrontend-master/html/borrower/borrowerOptions.html";
+        window.location = "/html/borrower/borrowerOptions.html";
       })
       .catch((error) => {
         const errorCode = error.code;
